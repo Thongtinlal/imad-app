@@ -22,11 +22,11 @@ app.get('/articleone', function (req, res) {
 });
 
 app.get('/articletwo', function (req, res) {
-  res.send('This is article one');
+  res.send('This is article two');
 });
 
 app.get('/articlethree', function (req, res) {
-  res.send('This is article one');
+  res.send('This is article three');
 });
 
 
